@@ -10,10 +10,10 @@ let package = Package(
     products: [
         .library(
             name: "RZVinyl",
-            targets: ["Core"]),
+            targets: ["RZVinyl"]),
         .library(
             name: "RZExtensions",
-            targets: ["Extensions"]),
+            targets: ["RZExtensions"]),
     ],
     dependencies: [
         .package(
@@ -23,11 +23,11 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Core",
+            name: "RZVinyl",
             path: "Classes"),
         .target(
-            name: "Extensions",
-            dependencies: ["Core","RZImport"],
+            name: "RZExtensions",
+            dependencies: ["RZVinyl","RZImport"],
             path: "Extensions"),
     ]
 )
