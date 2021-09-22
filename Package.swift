@@ -9,11 +9,11 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "RZVinylCore",
-            targets: ["RZVinylCore"]),
+            name: "RZVinyl",
+            targets: ["Core"]),
         .library(
             name: "RZVinylExtensions",
-            targets: ["RZVinylExtensions"]),
+            targets: ["Extensions"]),
     ],
     dependencies: [
         .package(
