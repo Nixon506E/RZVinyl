@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/Nixon506E/RZImport.git", 
-            from: "2.0.0"
+            .branch("master")
         )
     ],
     targets: [
