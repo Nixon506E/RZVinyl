@@ -12,7 +12,7 @@ let package = Package(
             name: "RZVinyl",
             targets: ["Core"]),
         .library(
-            name: "RZVinylExtensions",
+            name: "RZExtensions",
             targets: ["Extensions"]),
     ],
     dependencies: [
