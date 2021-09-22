@@ -27,7 +27,7 @@ let package = Package(
             path: "Classes"),
         .target(
             name: "Extensions",
-            dependencies: ["Core","RZImport"],
+            dependencies: ["RZVinyl","RZImport"],
             path: "Extensions"),
     ]
 )
