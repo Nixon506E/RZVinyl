@@ -12,8 +12,8 @@ let package = Package(
             name: "RZVinyl",
             targets: ["RZVinyl"]),
         .library(
-            name: "RZExtensions",
-            targets: ["RZExtensions"]),
+            name: "RZVinyl+Extensions",
+            targets: ["RZVinyl+Extensions"]),
     ],
     dependencies: [
         .package(
@@ -24,10 +24,10 @@ let package = Package(
     targets: [
         .target(
             name: "RZVinyl",
-            path: "Classes"),
+            publicHeadersPath: "Public"),
         .target(
-            name: "RZExtensions",
+            name: "RZVinyl+Extensions",
             dependencies: ["RZVinyl","RZImport"],
-            path: "Extensions"),
+            publicHeadersPath: "Public"),
     ]
 )
