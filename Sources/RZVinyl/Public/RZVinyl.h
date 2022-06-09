@@ -26,8 +26,11 @@
 //  OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 //  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+#import "RZVinylDefines.h"
 #import "RZCoreDataStack.h"
+#import "RZCoreDataStack_private.h"
 #import "NSManagedObject+RZVinylRecord.h"
+#import "NSManagedObject+RZVinylRecord_private.h"
 #import "NSManagedObject+RZVinylUtils.h"
 #import "NSFetchRequest+RZVinylRecord.h"
 #import "NSFetchedResultsController+RZVinylRecord.h"

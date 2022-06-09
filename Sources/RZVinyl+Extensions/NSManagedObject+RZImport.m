@@ -28,7 +28,7 @@
 
 
 #import "NSManagedObject+RZImport.h"
-#import "NSObject+RZImport_private.h"
+#import "NSObject+RZImport_Private.h"
 #import "NSManagedObject+RZVinylRecord.h"
 #import "NSManagedObject+RZVinylUtils.h"
 #import "NSManagedObject+RZImportableSubclass.h"

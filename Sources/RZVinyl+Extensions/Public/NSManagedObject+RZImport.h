@@ -32,7 +32,7 @@
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wauto-import"
-#import <RZImport/NSObject+RZImport.h>
+#import "NSObject+RZImport.h"
 #pragma clang diagnostic pop
 
 
